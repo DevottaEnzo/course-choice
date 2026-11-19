@@ -28,6 +28,8 @@ a:hover { text-decoration-thickness: 2px; }
 .skip { position: absolute; left: -9999px; top: 0; background: #000; color: #fff; padding: 8px 12px; z-index: 10; }
 .skip:focus { left: 8px; }
 
+.mock-banner { background: #e3a72f; color: #000; font-size: 14px; text-align: center; padding: 6px 16px; }
+
 /* ---------- Header ---------- */
 .site-header { border-bottom: 1px solid var(--line); background: var(--paper); position: sticky; top: 0; z-index: 5; }
 .header-row { display: flex; align-items: center; gap: 24px; height: 84px; }
